@@ -10789,6 +10789,32 @@
   "faucets": [],
   "infoURL": "https://apexlayer.xyz/"
 }, {
+  "name": "Splendor Mainnet",
+  "chainId": 2691,
+  "shortName": "spld",
+  "networkId": 2691,
+  "nativeCurrency": {
+    "name": "Splendor Token",
+    "symbol": "SPLD",
+    "decimals": 18
+  },
+  "rpc": ["https://mainnet-rpc.splendor.org", "https://splendor-rpc.org/"],
+  "faucets": [],
+  "infoURL": "https://splendor.org"
+}, {
+  "name": "Splendor Testnet",
+  "chainId": 2692,
+  "shortName": "spldt",
+  "networkId": 2692,
+  "nativeCurrency": {
+    "name": "Splendor Test Token",
+    "symbol": "SPLDT",
+    "decimals": 18
+  },
+  "rpc": ["https://testnet-rpc.splendor.org"],
+  "faucets": [],
+  "infoURL": "https://splendor.org"
+}, {
   "name": "Morph Testnet",
   "chainId": 2710,
   "shortName": "tmorph",
@@ -18737,8 +18763,8 @@
   "shortName": "1money",
   "networkId": 21210,
   "nativeCurrency": {
-    "name": "USD1",
-    "symbol": "USD1",
+    "name": "FREE",
+    "symbol": "FREE",
     "decimals": 18
   },
   "rpc": ["https://mainnet.1money.network"],
@@ -27551,8 +27577,8 @@
   "shortName": "1money-testnet",
   "networkId": 1212101,
   "nativeCurrency": {
-    "name": "USD1",
-    "symbol": "USD1",
+    "name": "FREE",
+    "symbol": "FREE",
     "decimals": 18
   },
   "rpc": ["https://testnet.1money.network"],
