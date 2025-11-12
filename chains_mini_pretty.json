@@ -4978,6 +4978,32 @@
   "faucets": [],
   "infoURL": "https://janction.io"
 }, {
+  "name": "Jasmy Chain",
+  "chainId": 680,
+  "shortName": "jasmychain",
+  "networkId": 680,
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.jasmychain.io", "wss://rpc.jasmychain.io"],
+  "faucets": [],
+  "infoURL": "https://jasmychain.io"
+}, {
+  "name": "Jasmy Chain Testnet",
+  "chainId": 681,
+  "shortName": "jasmychain_testnet",
+  "networkId": 681,
+  "nativeCurrency": {
+    "name": "JasmyCoin",
+    "symbol": "JASMY",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc_testnet.jasmychain.io", "wss://rpc_testnet.jasmychain.io"],
+  "faucets": [],
+  "infoURL": "https://jasmychain.io"
+}, {
   "name": "Karura Network",
   "chainId": 686,
   "shortName": "kar",
@@ -13411,9 +13437,9 @@
     "symbol": "TANGO",
     "decimals": 18
   },
-  "rpc": ["https://dancelight-2001.tanssi-api.network", "wss://dancelight-2001.tanssi-api.network"],
+  "rpc": ["https://services.tanssi-testnet.network/dancelight-2001", "wss://services.tanssi-testnet.network/dancelight-2001"],
   "faucets": ["https://apps.tanssi.network/demo"],
-  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/networks/dancebox/demo-evm-containerchain"
+  "infoURL": "https://docs.tanssi.network/builders/tanssi-network/testnet/demo-evm-network/"
 }, {
   "name": "Syscoin Tanenbaum Testnet",
   "chainId": 5700,
@@ -28092,6 +28118,19 @@
   "faucets": [],
   "infoURL": "https://docs.zero.network"
 }, {
+  "name": "Arc Network Testnet",
+  "chainId": 5042002,
+  "shortName": "arc-testnet",
+  "networkId": 5042002,
+  "nativeCurrency": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "rpc": ["https://rpc.testnet.arc.network", "wss://rpc.testnet.arc.network", "https://rpc.quicknode.testnet.arc.network", "wss://rpc.quicknode.testnet.arc.network", "https://rpc.blockdaemon.testnet.arc.network"],
+  "faucets": ["https://faucet.circle.com/"],
+  "infoURL": "https://arc.network"
+}, {
   "name": "NumBlock Chain",
   "chainId": 5112023,
   "shortName": "NUMB",
@@ -28907,7 +28946,7 @@
     "symbol": "QKI",
     "decimals": 18
   },
-  "rpc": ["https://hz.rpc.qkiscan.cn", "https://jp.rpc.qkiscan.io", "https://rpc1.qkiscan.io", "https://rpc2.qkiscan.io", "https://rpc3.qkiscan.io"],
+  "rpc": ["https://rpc1.qkirpc.org", "https://rpc2.qkirpc.org", "https://rpc3.qkirpc.org", "https://rpc1.qkiscan.io", "https://rpc2.qkiscan.io", "https://rpc3.qkiscan.io"],
   "faucets": [],
   "infoURL": "https://quarkblockchain.org/"
 }, {
